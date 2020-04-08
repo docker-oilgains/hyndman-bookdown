@@ -3,3 +3,4 @@ services:
 
 script:
     - docker build  -f Dockerfile -t f0nzie/hyndman-bookdown .
+    - docker run --rm -p 8787:8787 -e PASSWORD=hyndman f0nzie/hyndman-bookdown
