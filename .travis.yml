@@ -1,8 +1,5 @@
-language: r
-
 services:
     - docker
 
 before_install:
     docker build  -f Dockerfile -t f0nzie/hyndman-bookdown .
-    
