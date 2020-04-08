@@ -1,0 +1,14 @@
+*
+!.gitignore
+!book.Rproj
+!*.Rmd
+!*.yml
+!*.css
+!*.tex
+!*.bib
+!*.png
+!*.csv
+!before-each-chapter.R
+!mathjax-config.html
+!Ch10Data/*
+!public/**
